@@ -4,6 +4,7 @@
   "keywords": ["enumerable"],
   "homepage": "https://github.com/RWebSolutions/Common",
   "license": "MIT",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Marcin Różagórski",
@@ -12,7 +13,7 @@
     }
   ],
   "require": {
-    "php": "^7.2"
+    "php": ">=7.1",
   },
   "require-dev": {
     "phpunit/phpunit": "^6.3"
