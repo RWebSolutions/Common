@@ -1,0 +1,30 @@
+{
+  "name": "rwebsolutions/common",
+  "description": "Commonly useed tools and classes",
+  "keywords": ["enumerable"],
+  "homepage": "https://github.com/RWebSolutions/Common",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcin Różagórski",
+      "email": "marcinrozagorski@gmail.com",
+      "homepage": "https://github.com/RWebSolutions/"
+    },
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "RWS\\Common\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RWS\\Common\\Tests\\": "tests/"
+    }
+  },
+}
