@@ -9,7 +9,7 @@
       "name": "Marcin Różagórski",
       "email": "marcinrozagorski@gmail.com",
       "homepage": "https://github.com/RWebSolutions/"
-    },
+    }
   ],
   "require": {
     "php": "^7.2"
